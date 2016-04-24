@@ -66,6 +66,21 @@ public class DataType {
 //        String text = "Hello";
 //        System.out.println(text.charAt(0));
 
+        //Literals
+//        int a =3_2;
+//        System.out.println(a + 2);
+
+//        int hex = 0xfff;        //hexaDecimal literal number start with 0x or 0X
+//        int oct = 022;          //octal literal number start with 0
+//        System.out.println("integer of given hex code = "+hex);
+//        System.out.println("integer of given octal code = "+oct);
+
+//        System.out.println("Hi there! \n This is \"Zeeshan Ayaz\", and i am a \'Java developer\' \nthe technologies on which i am working are: \n \t1.\tGIT\n\t2.\tHTML5 & CSS3\n\t3.\tBootstrap\n\t4.\tJava");
+//        System.out.println("\222 \u22ff");
+
+//        System.out.println("A\tB\tC");
+//        System.out.println("C\tD\tE");
+
 
 
     }
