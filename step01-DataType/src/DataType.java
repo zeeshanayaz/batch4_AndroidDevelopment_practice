@@ -64,7 +64,7 @@ public class DataType {
 
         //using string
 //        String text = "Hello";
-//        System.out.println((char) (text[1]));
+//        System.out.println(text.charAt(0));
 
 
 
