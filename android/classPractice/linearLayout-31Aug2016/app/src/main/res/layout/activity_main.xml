@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context="com.example.zeeshan.linearlayout_31aug2016.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        android:textSize="28dp"
+        android:background="#4CAF50"
+        android:textColor="#FFFF00"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Good Morning"
+        android:textSize="28dp"
+        android:background="#4CAF50"
+        android:textColor="#FFFF00"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:id="@+id/move"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Good Night"
+        android:textSize="28dp"
+        android:background="#4CAF50"
+        android:textColor="#FFFF00"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CENTER"
+        android:layout_centerInParent="true"
+        android:textSize="28dp"
+        android:background="#4CAF50"
+        android:textColor="#FFFF00"
+        android:padding="20dp"
+        android:id="@+id/centre"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Allignment"
+        android:textSize="30dp"
+        android:layout_below="@id/move"
+        android:layout_alignParentRight="true"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Allignment"
+        android:layout_centerInParent="true"
+        android:textSize="30dp"
+        android:background="#A5D6A7"
+        android:layout_below="@id/centre"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Allignment"
+        android:textSize="30dp"
+        android:background="#A5D6A7"
+        android:layout_above="@id/centre"
+        android:layout_centerInParent="true"
+        />
+
+</RelativeLayout>
