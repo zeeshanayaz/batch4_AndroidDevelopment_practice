@@ -32,6 +32,15 @@
                 android:src="@drawable/coffeeimage"
                 android:scaleType="centerInside"
                 />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Quantity"
+                android:textSize="36dp"
+                android:textAllCaps="true"
+                android:textAlignment="center"
+                android:textColor="#BCAAA4"
+                android:textStyle="bold"/>
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -53,7 +62,7 @@
                     android:textColor="#BCAAA4"
                     android:textStyle="bold"
                     android:textAlignment="center"
-                    android:id="@+id/cofeeCounter"
+                    android:id="@+id/textView_cofeeCounter"
                     android:layout_weight="1"/>
                 <Button
                     android:layout_width="wrap_content"
@@ -73,23 +82,24 @@
                 <Button
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Generate Bill"
+                    android:text="Submit Order"
                     android:textSize="30dp"
                     android:padding="10dp"
                     android:background="#BCAAA4"
-                    android:onClick="generateBill"
+                    android:onClick="submitOrder"
                     android:layout_gravity="center_horizontal"/>
             </LinearLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="vertical">
+                android:orientation="horizontal">
                 <TextView
-                    android:layout_width="match_parent"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text=" "
+                    android:text=""
                     android:textSize="30dp"
+                    android:layout_weight="1"
                     android:textAlignment="center"
                     android:id="@+id/textView_bill"
                     android:textStyle="italic"/>
