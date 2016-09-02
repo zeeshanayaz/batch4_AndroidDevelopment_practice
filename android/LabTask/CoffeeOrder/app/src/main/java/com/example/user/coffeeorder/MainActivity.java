@@ -12,7 +12,8 @@ public class MainActivity extends AppCompatActivity {
     int eachCoffeePrize = 10;
     int eachMalaiPrize = 2;
     int eachChocolatePrize = 3;
-    String name = "Zeeshan Ayaz";
+    String name;
+//    String name = "Zeeshan Ayaz";
     int malaiPrize = 0;
     int chocolatePrize = 0;
     String message;
@@ -59,6 +60,9 @@ public class MainActivity extends AppCompatActivity {
             displayCoffeePrize(message);
 
             displayToast("Thanks For Your Order\nWe will deliver your coffee ASAP!\n:)");
+
+            TextView textView = (TextView) findViewById(R.id.userName_TextView);
+            textView.setText("");
         }
         else
         {
@@ -117,6 +121,9 @@ public class MainActivity extends AppCompatActivity {
 //Displaying User Name and Detail
     private String UserData()
     {
+        TextView textView = (TextView) findViewById(R.id.userName_TextView);
+        name = textView.getText().toString();
+
         String message = "Name : "+name+"\n\n";
         return message;
     }
