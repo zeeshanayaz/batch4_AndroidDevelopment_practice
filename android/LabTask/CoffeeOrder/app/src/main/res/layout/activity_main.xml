@@ -28,7 +28,7 @@
                 <EditText
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:hint="Enter Your Name"
+                    android:hint="@string/nameHint"
                     android:id="@+id/userName_TextView"/>
 
             </LinearLayout>
@@ -38,9 +38,10 @@
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
                 <TextView
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Coffee Wale"
+                    android:text="@string/coffeeWale"
+                    android:textAlignment="center"
                     android:textAllCaps="true"
                     android:textSize="20dp"
                     android:layout_marginBottom="10dp"/>
@@ -87,14 +88,14 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Toppings"
+                    android:text="@string/toppings"
                     android:textAllCaps="false"
                     android:textSize="20dp"
                     android:layout_marginBottom="10dp"/>
                 <CheckBox
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Add Malai"
+                    android:text="@string/addMalaiCheckBox"
                     android:textColor="#A1887F"
                     android:textAllCaps="false"
                     android:paddingLeft="24dp"
@@ -103,7 +104,7 @@
                 <CheckBox
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Add Chocolate"
+                    android:text="@string/addChocolateCheckBox"
                     android:textColor="#A1887F"
                     android:textAllCaps="false"
                     android:paddingLeft="24dp"
@@ -119,7 +120,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Summary"
+                    android:text="@string/summary"
                     android:textAllCaps="false"
                     android:textSize="20dp"
                     android:layout_marginBottom="20dp"
@@ -143,7 +144,7 @@
                 <Button
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Order"
+                    android:text="@string/orderButton"
                     android:textColor="#D7CCC8"
                     android:background="#BCAAA4"
                     android:onClick="submitCoffeeOrder" />

@@ -3,6 +3,7 @@ package com.example.user.coffeeorder;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.webkit.ConsoleMessage;
 import android.widget.CheckBox;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -39,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
         {
             message = "";
             displayCoffeePrize(message);
-            displayToast("Sorry\nWe could Not Recognize quantity\n:(");
+            displayToast(getResources().getString(R.string.errorCoffeeQuantity));
         }
     }
 
@@ -59,14 +60,14 @@ public class MainActivity extends AppCompatActivity {
             message = UserData() + calculateCoffeePrize(quantity);
             displayCoffeePrize(message);
 
-            displayToast("Thanks For Your Order\nWe will deliver your coffee ASAP!\n:)");
+            displayToast(getResources().getString(R.string.thankfulMessage));
 
             TextView textView = (TextView) findViewById(R.id.userName_TextView);
             textView.setText("");
         }
         else
         {
-            displayToast("Sorry\nWe could Not Recognize quantity\n:)");
+            displayToast(getResources().getString(R.string.errorCoffeeQuantity));
         }
 
     }
@@ -124,8 +125,14 @@ public class MainActivity extends AppCompatActivity {
         TextView textView = (TextView) findViewById(R.id.userName_TextView);
         name = textView.getText().toString();
 
-        String message = "Name : "+name+"\n\n";
+
+        if(name==null)
+        {
+            name = "customer";
+        }
+        String message = "Name : " + name + "\n\n";
         return message;
+
     }
 
 //Displaying Errors in Toast
