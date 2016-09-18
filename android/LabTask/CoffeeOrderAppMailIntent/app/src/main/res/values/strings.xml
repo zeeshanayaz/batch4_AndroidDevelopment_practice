@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Coffee Order App Mail Intent</string>
+
+    <!--Strings -->
+    <string name="coffeeWale">Coffee Wale</string>
+    <string name="toppings">Toppings</string>
+    <string name="summary">Summary</string>
+    <string name="orderButton">Order</string>
+    <string name="nameHint">Enter Your Name</string>
+    <string name="addMalaiCheckBox">Add Malai</string>
+    <string name="addChocolateCheckBox">Add Chocolate</string>
+    <string name="errorCoffeeQuantity">Sorry We could Not Recognize quantity :(</string>
+    <string name="thankfulMessage">Thanks For Your Order. We will deliver your coffee ASAP! :)</string>
+
+</resources>
