@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name">Quiz App</string>
+
+    <!--Customize Strings-->
+
+    <string name="appName">Quiz App</string>
+    <string name="startQuizzButton">Start</string>
+    <string name="nextButton">Next</string>
+    <string name="submitButon">Submit</string>
+
+    <!--Quiz 1 Strings-->
+    <string name="quiz1Header">Ques # 1</string>
+    <string name="quiz1">The first Pakistani scientist, Professor Dr. Abdul Salam Recieved Nobel Prize in:</string>
+    <string name="quiz1_1">1987</string>
+    <string name="quiz1_2">1971</string>
+    <string name="quiz1_3">1979</string>
+    <string name="quiz1_4">1966</string>
+    <!--Correct = 1979-->
+
+    <!--Quiz 2 Strings-->
+    <string name="quiz2Header">Ques # 2</string>
+    <string name="quiz2">Which one is the National Masjid of Pakistan?</string>
+    <string name="quiz2_1">Badshahi Masjid</string>
+    <string name="quiz2_2">Wazir Khan Masjid</string>
+    <string name="quiz2_3">Faisal Masjid</string>
+    <string name="quiz2_4">Masjid e Tooba</string>
+    <!--Correct = Faisal Masjid-->
+
+    <!--Quiz 3 Strings-->
+    <string name="quiz3Header">Ques # 3</string>
+    <string name="quiz3">The Lyrics of Pakistan National Anthem were written by:</string>
+    <string name="quiz3_1">Amiruddin Kidwani</string>
+    <string name="quiz3_2">Hafeez Jalhandri</string>
+    <string name="quiz3_3">Liaquat Ali Khan</string>
+    <string name="quiz3_4">Ahmed G. Chagla</string>
+    <!--Correct = Hafeez Jalhandri-->
+
+    <!--Quiz 4 Strings-->
+    <string name="quiz4Header">Ques # 4</string>
+    <string name="quiz4">The total number of individuals who recieved Nishan-e-Haider so far is ______ ?</string>
+    <string name="quiz4_1">11</string>
+    <string name="quiz4_2">10</string>
+    <string name="quiz4_3">9</string>
+    <string name="quiz4_4">8</string>
+    <!--Correct = 10-->
+
+    <!--Quiz 5 Strings-->
+    <string name="quiz5Header">Ques # 5</string>
+    <string name="quiz5">The National flower of Pakistan is _________?</string>
+    <string name="quiz5_1">Common Jasmine</string>
+    <string name="quiz5_2">Lily</string>
+    <string name="quiz5_3">Rose</string>
+    <string name="quiz5_4">Violet</string>
+    <!--Correct = Common Jasmine-->
+
+    <!--&lt;!&ndash;Quiz  Strings&ndash;&gt;-->
+    <!--<string name="quiz2Header">Ques # </string>-->
+    <!--<string name="quiz2"></string>-->
+    <!--<string name="quiz2_1"></string>-->
+    <!--<string name="quiz2_2"></string>-->
+    <!--<string name="quiz2_3"></string>-->
+    <!--<string name="quiz2_4"></string>-->
+    <!--&lt;!&ndash;Correct = &ndash;&gt;-->
+
+</resources>

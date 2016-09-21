@@ -1,0 +1,48 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/primaryColor</item>
+        <item name="colorPrimaryDark">@color/darkPrimaryColor</item>
+        <item name="colorAccent">@color/accentColor</item>
+    </style>
+
+
+    <style name="Header">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:textColor">@color/primaryText</item>
+        <item name="android:paddingBottom">10dp</item>
+    </style>
+
+    <style name="Questions">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:layout_marginBottom">30dp</item>
+    </style>
+
+    <style name="MultipleChoice">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:layout_marginLeft">30dp</item>
+    </style>
+
+    <style name="Button">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/darkPrimaryColor</item>
+        <item name="android:textColor">#FFF9C4</item>
+        <item name="android:layout_gravity">right</item>
+        <item name="android:layout_margin">10dp</item>
+    </style>
+
+
+
+</resources>
