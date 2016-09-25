@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.user.miwok.MainActivity"
+    android:orientation="vertical"
+    android:background="@color/background">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:text="Numbers"
+                android:background="@color/category_numbers"
+                style="@style/Miwok_MainTheme"
+                android:onClick="numbers"
+                />
+            <TextView
+                android:text="Family Members"
+                android:background="@color/category_familyMembers"
+                style="@style/Miwok_MainTheme"
+                android:onClick="familyMembers"
+                />
+            <TextView
+                android:text="Colors"
+                android:background="@color/category_colors"
+                style="@style/Miwok_MainTheme"
+                android:onClick="colors"
+                />
+            <TextView
+                android:text="Phrase"
+                android:background="@color/category_phrase"
+                style="@style/Miwok_MainTheme"
+                android:onClick="phrase"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

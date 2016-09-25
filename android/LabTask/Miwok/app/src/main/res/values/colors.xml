@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#263238</color>
+    <color name="colorPrimaryDark">#78909C</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <!--MianActivity Background Color-->
+    <color name="category_numbers">#FF7043</color>
+    <color name="category_familyMembers">#43A047</color>
+    <color name="category_colors">#512DA8</color>
+    <color name="category_phrase">#03A9F4</color>
+    <color name="background">#FFF8E1</color>
+
+</resources>
