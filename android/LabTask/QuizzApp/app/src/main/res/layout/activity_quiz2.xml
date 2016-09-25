@@ -30,7 +30,8 @@
                 android:orientation="vertical">
                 <RadioGroup
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioGroupAnswer">
                     <RadioButton
                         style="@style/MultipleChoice"
                         android:text="@string/quiz2_1"

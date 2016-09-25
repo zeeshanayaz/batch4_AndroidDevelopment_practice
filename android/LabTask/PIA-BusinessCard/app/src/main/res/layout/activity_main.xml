@@ -27,7 +27,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Reserve Tickets Online"
-                android:textSize="30dp"
+                android:textSize="30sp"
                 android:textColor="#2E7D32"
                 android:textAlignment="center"/>
             <LinearLayout
@@ -55,7 +55,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Customer Care"
-                android:textSize="30dp"
+                android:textSize="30sp"
                 android:textColor="#2E7D32"
                 android:textAlignment="center"/>
 
@@ -76,7 +76,7 @@
                     android:text="0123 4567890"
                     android:layout_weight="1"
                     android:layout_gravity="center"
-                    android:textSize="24dp"
+                    android:textSize="24sp"
                     android:layout_marginLeft="20dp"/>
             </LinearLayout>
 
@@ -97,7 +97,7 @@
                     android:text="customercare@pia.com"
                     android:layout_weight="1"
                     android:layout_gravity="center"
-                    android:textSize="24dp"
+                    android:textSize="24sp"
                     android:layout_marginLeft="20dp"/>
             </LinearLayout>
 
@@ -118,7 +118,7 @@
                     android:text="Jinnah International Airport Karachi, Pakistan"
                     android:layout_weight="1"
                     android:layout_gravity="center"
-                    android:textSize="24dp"
+                    android:textSize="24sp"
                     android:layout_marginLeft="20dp"/>
             </LinearLayout>
 

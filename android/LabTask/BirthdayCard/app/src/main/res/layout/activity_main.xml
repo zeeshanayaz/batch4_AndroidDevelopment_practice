@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:paddingBottom="20dp"
     android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="20dp"
+    android:paddingRight="30dp"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:background="@drawable/happybirthday"
     android:orientation="vertical"
@@ -15,20 +15,22 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="From"
-        android:textColor="#FAFAFA"
-        android:textSize="36dp"
-        android:layout_above="@id/textView_from"
-        android:layout_alignParentRight="true"/>
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
         android:text="Zeeshan Pabal"
         android:textStyle="bold|italic"
         android:id="@+id/textView_from"
         android:textColor="#9E9E9E"
-        android:textSize="36dp"
+        android:textSize="36sp"
         android:fontFamily="sans-serif-light"
         android:layout_alignParentRight="true"
-        android:layout_alignParentBottom="true"/>
+        android:layout_alignParentBottom="true"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="From"
+        android:textColor="#FAFAFA"
+        android:textSize="36sp"
+        android:layout_above="@id/textView_from"
+        android:layout_alignParentRight="true"/>
 </RelativeLayout>
