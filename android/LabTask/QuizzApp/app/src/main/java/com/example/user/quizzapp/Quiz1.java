@@ -16,6 +16,7 @@ public class Quiz1 extends AppCompatActivity{
 
     MainActivity main = new MainActivity();
 
+    int flag = 0;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -35,9 +36,10 @@ public class Quiz1 extends AppCompatActivity{
         {
             if (option3.isChecked())
             {
-                main.addScore();
+                flag = 1;
             }
             Intent i = new Intent(this, Quiz2.class);
+            main.addScore(flag);
             startActivity(i);
         }
         else
@@ -48,7 +50,25 @@ public class Quiz1 extends AppCompatActivity{
     }
     public void submitQuiz(View view)
     {
-        Intent i = new Intent(this,QuizScore.class);
-        startActivity(i);
+        option1 = (RadioButton) findViewById(R.id.option1RadioButton);
+        option2 = (RadioButton) findViewById(R.id.option2RadioButton);
+        option3 = (RadioButton) findViewById(R.id.option3RadioButton);
+        option4 = (RadioButton) findViewById(R.id.option4RadioButton);
+
+        if(option1.isChecked() || option2.isChecked() || option3.isChecked() || option4.isChecked())
+        {
+            if (option1.isChecked())
+            {
+                flag = 1;
+            }
+            Intent i = new Intent(this,QuizScore.class);
+            main.addScore(flag);
+            startActivity(i);
+        }
+        else
+        {
+            Toast toast = Toast.makeText(this, "Please Select any option", Toast.LENGTH_SHORT);
+            toast.show();
+        }
     }
 }

@@ -34,18 +34,22 @@
                     android:id="@+id/radioGroupAnswer">
                     <RadioButton
                         style="@style/MultipleChoice"
+                        android:id="@+id/option1RadioButton"
                         android:text="@string/quiz2_1"
                         />
                     <RadioButton
                         style="@style/MultipleChoice"
+                        android:id="@+id/option2RadioButton"
                         android:text="@string/quiz2_2"
                         />
                     <RadioButton
                         style="@style/MultipleChoice"
+                        android:id="@+id/option3RadioButton"
                         android:text="@string/quiz2_3"
                         />
                     <RadioButton
                         style="@style/MultipleChoice"
+                        android:id="@+id/option4RadioButton"
                         android:text="@string/quiz2_4"
                         />
                 </RadioGroup>

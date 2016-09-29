@@ -33,18 +33,22 @@
                     android:layout_height="wrap_content">
                     <RadioButton
                         style="@style/MultipleChoice"
+                        android:id="@+id/option1RadioButton"
                         android:text="@string/quiz4_1"
                         />
                     <RadioButton
                         style="@style/MultipleChoice"
+                        android:id="@+id/option2RadioButton"
                         android:text="@string/quiz4_2"
                         />
                     <RadioButton
                         style="@style/MultipleChoice"
+                        android:id="@+id/option3RadioButton"
                         android:text="@string/quiz4_3"
                         />
                     <RadioButton
                         style="@style/MultipleChoice"
+                        android:id="@+id/option4RadioButton"
                         android:text="@string/quiz4_4"
                         />
                 </RadioGroup>

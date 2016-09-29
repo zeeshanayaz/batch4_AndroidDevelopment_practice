@@ -23,12 +23,14 @@ public class QuizScore extends AppCompatActivity {
 
     public void FinalScore() {
         TextView textView_Score = (TextView) findViewById(R.id.scoreTextView);
-        textView_Score.setText("Score : "+main.score);
+        int score = main.getScore();
+        textView_Score.setText(score + " out of 5");
     }
 
     public void start(View view)
     {
         Intent i = new Intent(this,MainActivity.class);
+        main.setScore(0);
         startActivity(i);
     }
 }
