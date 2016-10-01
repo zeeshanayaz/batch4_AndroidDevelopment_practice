@@ -16,8 +16,6 @@ public class Quiz4 extends AppCompatActivity {
 
     int flag = 0;
 
-    MainActivity main = new MainActivity();
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -32,12 +30,12 @@ public class Quiz4 extends AppCompatActivity {
 
         if(option1.isChecked() || option2.isChecked() || option3.isChecked() || option4.isChecked())
         {
-            if (option1.isChecked())
+            if (option2.isChecked())
             {
                 flag = 1;
             }
             Intent i = new Intent(this, Quiz5.class);
-            main.addScore(flag);
+            MainActivity.addScore(flag);
             startActivity(i);
         }
         else
@@ -57,11 +55,12 @@ public class Quiz4 extends AppCompatActivity {
 
         if(option1.isChecked() || option2.isChecked() || option3.isChecked() || option4.isChecked())
         {
-            if (option1.isChecked())
+            if (option2.isChecked())
             {
                 flag = 1;
             }
             Intent i = new Intent(this,QuizScore.class);
+            MainActivity.addScore(flag);
             startActivity(i);
         }
         else

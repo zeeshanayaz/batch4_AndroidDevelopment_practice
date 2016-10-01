@@ -8,8 +8,6 @@ import android.widget.TextView;
 
 public class QuizScore extends AppCompatActivity {
 
-    MainActivity main =  new MainActivity();
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -23,14 +21,14 @@ public class QuizScore extends AppCompatActivity {
 
     public void FinalScore() {
         TextView textView_Score = (TextView) findViewById(R.id.scoreTextView);
-        int score = main.getScore();
+        int score = MainActivity.score;
         textView_Score.setText(score + " out of 5");
     }
 
     public void start(View view)
     {
         Intent i = new Intent(this,MainActivity.class);
-        main.setScore(0);
+        MainActivity.score=0;
         startActivity(i);
     }
 }

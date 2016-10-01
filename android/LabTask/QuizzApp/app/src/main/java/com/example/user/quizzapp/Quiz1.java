@@ -14,8 +14,6 @@ public class Quiz1 extends AppCompatActivity{
     RadioButton option3;
     RadioButton option4;
 
-    MainActivity main = new MainActivity();
-
     int flag = 0;
 
     @Override
@@ -39,7 +37,7 @@ public class Quiz1 extends AppCompatActivity{
                 flag = 1;
             }
             Intent i = new Intent(this, Quiz2.class);
-            main.addScore(flag);
+            MainActivity.addScore(flag);
             startActivity(i);
         }
         else
@@ -57,12 +55,12 @@ public class Quiz1 extends AppCompatActivity{
 
         if(option1.isChecked() || option2.isChecked() || option3.isChecked() || option4.isChecked())
         {
-            if (option1.isChecked())
+            if (option3.isChecked())
             {
                 flag = 1;
             }
             Intent i = new Intent(this,QuizScore.class);
-            main.addScore(flag);
+            MainActivity.addScore(flag);
             startActivity(i);
         }
         else

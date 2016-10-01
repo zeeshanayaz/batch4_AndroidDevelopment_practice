@@ -16,8 +16,6 @@ public class Quiz5 extends AppCompatActivity {
 
     int flag = 0;
 
-    MainActivity main = new MainActivity();
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -38,6 +36,7 @@ public class Quiz5 extends AppCompatActivity {
                 flag = 1;
             }
             Intent i = new Intent(this,QuizScore.class);
+            MainActivity.addScore(flag);
             startActivity(i);
         }
         else

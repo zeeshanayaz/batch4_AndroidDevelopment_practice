@@ -15,7 +15,7 @@
     <string name="quiz1_2">1971</string>
     <string name="quiz1_3">1979</string>
     <string name="quiz1_4">1966</string>
-    <!--Correct = 1979-->
+    <!--Correct = 1979 (Option 3)-->
 
     <!--Quiz 2 Strings-->
     <string name="quiz2Header">Ques # 2</string>
@@ -24,7 +24,7 @@
     <string name="quiz2_2">Wazir Khan Masjid</string>
     <string name="quiz2_3">Faisal Masjid</string>
     <string name="quiz2_4">Masjid e Tooba</string>
-    <!--Correct = Faisal Masjid-->
+    <!--Correct = Faisal Masjid (Option 3)-->
 
     <!--Quiz 3 Strings-->
     <string name="quiz3Header">Ques # 3</string>
@@ -33,7 +33,7 @@
     <string name="quiz3_2">Hafeez Jalhandri</string>
     <string name="quiz3_3">Liaquat Ali Khan</string>
     <string name="quiz3_4">Ahmed G. Chagla</string>
-    <!--Correct = Hafeez Jalhandri-->
+    <!--Correct = Hafeez Jalhandri (Option 2)-->
 
     <!--Quiz 4 Strings-->
     <string name="quiz4Header">Ques # 4</string>
@@ -42,7 +42,7 @@
     <string name="quiz4_2">10</string>
     <string name="quiz4_3">9</string>
     <string name="quiz4_4">8</string>
-    <!--Correct = 10-->
+    <!--Correct = 10 (Option 2)-->
 
     <!--Quiz 5 Strings-->
     <string name="quiz5Header">Ques # 5</string>
@@ -51,7 +51,7 @@
     <string name="quiz5_2">Lily</string>
     <string name="quiz5_3">Rose</string>
     <string name="quiz5_4">Violet</string>
-    <!--Correct = Common Jasmine-->
+    <!--Correct = Common Jasmine (option 1)-->
 
     <!--&lt;!&ndash;Quiz  Strings&ndash;&gt;-->
     <!--<string name="quiz2Header">Ques # </string>-->

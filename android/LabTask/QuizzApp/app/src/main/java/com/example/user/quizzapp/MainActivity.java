@@ -7,7 +7,7 @@ import android.view.View;
 
 public class MainActivity extends AppCompatActivity {
 
-    public int score;
+    static public int score;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,16 +21,9 @@ public class MainActivity extends AppCompatActivity {
         startActivity(i);
     }
 
-    public void addScore(int score)
+    public static void addScore(int score)
     {
-        this.score = this.score + score;
+        MainActivity.score= MainActivity.score + score;
     }
 
-    public int getScore() {
-        return score;
-    }
-
-    public void setScore(int score) {
-        this.score = score;
-    }
 }
