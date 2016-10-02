@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Miwok</string>
+
+    <string name="Category_Numbers">Numbers</string>
+    <string name="Category_family_members">Family Members</string>
+    <string name="Category_Colors">Colors</string>
+    <string name="Category_Phrase">Phrase</string>
+
 </resources>

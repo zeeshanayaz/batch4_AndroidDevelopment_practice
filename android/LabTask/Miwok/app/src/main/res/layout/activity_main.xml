@@ -16,25 +16,25 @@
             android:orientation="vertical">
 
             <TextView
-                android:text="Numbers"
+                android:text="@string/Category_Numbers"
                 android:background="@color/category_numbers"
                 style="@style/Miwok_MainTheme"
                 android:onClick="numbers"
                 />
             <TextView
-                android:text="Family Members"
+                android:text="@string/Category_family_members"
                 android:background="@color/category_familyMembers"
                 style="@style/Miwok_MainTheme"
                 android:onClick="familyMembers"
                 />
             <TextView
-                android:text="Colors"
+                android:text="@string/Category_Colors"
                 android:background="@color/category_colors"
                 style="@style/Miwok_MainTheme"
                 android:onClick="colors"
                 />
             <TextView
-                android:text="Phrase"
+                android:text="@string/Category_Phrase"
                 android:background="@color/category_phrase"
                 style="@style/Miwok_MainTheme"
                 android:onClick="phrase"
